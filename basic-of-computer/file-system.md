@@ -20,6 +20,10 @@ In Windows operating system, all drivers will be mount at C, D, E, ... etc indep
 
 The home directory path in Windows is "C:\home\user\user-name", the user-name is the name of user define.
 
+## In this book
+
+本書主要執行環境為 Ubuntu 18.04，在後面的章節將會介紹基礎 Linux command。
+
 ## Reference
 
 * [鳥哥的私房菜](http://linux.vbird.org/linux_basic/0210filepermission.php)
