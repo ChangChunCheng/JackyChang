@@ -4,5 +4,7 @@ description: 本章將介紹基本的電腦硬體、作業系統中檔案系統�
 
 # Basic of Computer
 
+## Reference
+
 * [鳥哥的Linux私房菜](http://linux.vbird.org/)
 

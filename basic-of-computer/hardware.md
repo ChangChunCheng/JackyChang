@@ -14,5 +14,7 @@
 
 為了解決上述的問題，往往會在伺服器配置與演算法設計上著手，例如：一台伺服器有多顆硬碟，利用磁碟陣列 \(Redundant Array of Independent Disks, RAID\) 做資料存取與資料備份，或是在程式設計時將程式、資料放在多顆不同硬碟，並利用設計好的流程對多硬碟同步存取，減少 IO 時間造成程式無法順利執行。
 
+## Reference
+
 * [鳥哥的Linux私房菜](http://linux.vbird.org/)
 
