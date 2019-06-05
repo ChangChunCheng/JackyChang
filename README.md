@@ -1,1 +1,2 @@
-# Practicing program and envirments' setup.
+# Initial page
+
