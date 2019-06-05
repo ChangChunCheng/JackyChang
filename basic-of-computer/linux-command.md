@@ -33,3 +33,9 @@ Ubuntu 中，預設 ll = ls -a 為顯示目錄下文件訊息，範例如下：
 
 除了上述的常用指令外，還必須認識 group, owner 的概念 \(參考鳥哥的私房菜\)。
 
+
+
+## Reference
+
+* [鳥哥的私房菜](http://linux.vbird.org/linux_basic/0210filepermission.php)
+
