@@ -1,8 +1,6 @@
----
-description: 本章會簡單討論電腦的執行流程與造成電腦執行速度的原因。
----
-
 # Hardware
+
+#### **本章會簡單討論電腦的執行流程與造成電腦執行速度的原因。** The pipeline of computer executing and the cause of the computer is slow.
 
 電腦在執行任何一個工作時，必須將資料從硬碟 \(Hard Drive\) 讀取至記憶體 \(Random Access Memory, RAM\) 後，才可以被中央處理器 \(Center Process Unit, CPU\) 讀取並執行。其中，資料進入 \(Input\) 與輸出 \(Output\) 硬體動作簡稱為 IO \(Input/Output\)；資料寫入稱為 write，讀取稱為 read。
 
