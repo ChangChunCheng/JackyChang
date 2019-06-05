@@ -20,9 +20,9 @@
 * chown : 設定檔案擁有者與擁有群組
 * grep : 搜尋檔案中文字
 * awk : 文字處理
-  * 利用 stdin/stdout 逐行處理
+  * 利用標準輸入輸出 \(standard in / standard out, stdin/stdout\) 進行逐行處理
 * ssh : 遠端連線、資料傳輸
-  * 利用 TCP/IP
+  * 利用 TCP/IP 進行網路連線與資料傳輸
 
 Ubuntu 中，預設 ll = ls -a 為顯示目錄下文件訊息，範例如下：
 
