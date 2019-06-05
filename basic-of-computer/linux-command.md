@@ -27,7 +27,7 @@
 Ubuntu 中，預設 ll = ls -a 為顯示目錄下文件訊息，範例如下：
 
 ```text
--rwxr-xr-x 2 root root 48 2013-11-27 16:34 test/
+-rwxr-xr-x 2 root root 48 2013-11-27 16:34 test
 ```
 
 上列範例說明：
