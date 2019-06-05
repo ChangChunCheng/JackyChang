@@ -1,8 +1,6 @@
----
-description: 本章將介紹docker概念與實作。
----
-
 # Docker
+
+本章將介紹docker概念與實作。
 
 ![](../.gitbook/assets/docker_facebook_share.png)
 
