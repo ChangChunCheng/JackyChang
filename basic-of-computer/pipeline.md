@@ -12,6 +12,8 @@ $ a.py | b.py
 
 上列程式中， "a.py" 程式透過 sys.stdout 將資料傳遞給作業系統，並透過作業系統的 pipeline, "\|", 傳遞給 "b.py"，其中 "b.py" 也需透過sys.stdin來取得作業系統傳遞來的資料。
 
+然而， pipeline 不只存在於程式與作業系統間，也常被用於資料流的設計中。例如：Python的Pandas套件中有pipeline方法，使得開發者可以使用它讓資料可以一次性完成所有運算工作，而不是逐步執行，減少Python解釋器所帶來的效能低弱的問題。
+
 ## Reference
 
 * [鳥哥的私房菜](http://linux.vbird.org/linux_basic/0210filepermission.php)
