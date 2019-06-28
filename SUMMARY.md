@@ -6,7 +6,6 @@
   * [File System](basic-of-computer/file-system.md)
   * [Linux Command](basic-of-computer/linux-command.md)
   * [Pipeline](basic-of-computer/pipeline.md)
-  * [Shell](basic-of-computer/shell.md)
 * [Docker](docker/README.md)
   * [What is docker ?](docker/what-is-docker.md)
 
