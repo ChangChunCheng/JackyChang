@@ -2,7 +2,7 @@
 
 不論在 Linux 還是 Windows 作業系統中，在程式執行時皆有 "pipeline" ，而 pipeline 重點在於蒐集程式執行期間透過 stdout 輸出的內容，並傳遞給作業系統，再由作業系統整合給下一個程式。
 
-pipeline 之所以重要，是因為其透過 stdin/stdout 與作業系統之間傳遞資料，而不是透過 input/output 對硬碟存讀資料，使得程式間的資料傳遞變得更有效率，而比較不被受限於硬體。
+pipeline 之所以重要，是因為其透過 stdin/stdout 與作業系統之間傳遞資料，而不是透過 input/output 對硬碟存讀資料，使得程式間的資料傳遞變得更有效率，而比較不被受限於儲存裝置的速度。
 
 以 Linux command line 為例，
 
