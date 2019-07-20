@@ -6,7 +6,8 @@
   * [File System](basic-of-computer/file-system.md)
   * [Linux Command](basic-of-computer/linux-command.md)
   * [Pipeline](basic-of-computer/pipeline.md)
-* [Data process](data-process.md)
 * [Docker](docker/README.md)
-  * [What is docker ?](docker/what-is-docker.md)
+  * [What is docker ?](docker/what-is-docker/README.md)
+    * [Docker command](docker/what-is-docker/docker-command.md)
+* [Data process](data-process.md)
 
