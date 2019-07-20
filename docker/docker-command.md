@@ -6,9 +6,9 @@
   * 本機docker有放置docker image的位置，也可以透過pull、push指令與公有/私人 \(public/private\) docker registry存取docker image。
   * public docker registry : https://hub.docker.com
   * private docker registry : 可透過官方提供的private registry建立私人docker registry伺服器。
-* * docker version :
-* docker info :  
-* docker search : 
+* * docker version : docker版本
+* docker info :  docker版本訊息
+* docker search : 搜尋docker images。未設定docker registry IP時，預設搜尋public docker registry。
 * docker pull : 
 * docker push : 
 * docker images : 
