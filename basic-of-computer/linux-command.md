@@ -23,6 +23,8 @@
   * 利用標準輸入輸出 \(standard in / standard out, stdin/stdout\) 進行逐行處理
 * ssh : 遠端連線、資料傳輸
   * 利用 TCP/IP 進行網路連線與資料傳輸
+* scp : 資料傳輸
+  * 利用 TCP/IP 進行網路連線與資料傳輸
 
 Ubuntu 中，預設 ll = ls -a 為顯示目錄下文件訊息，範例如下：
 
