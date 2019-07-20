@@ -7,7 +7,7 @@
   * [Linux Command](basic-of-computer/linux-command.md)
   * [Pipeline](basic-of-computer/pipeline.md)
 * [Docker](docker/README.md)
-  * [What is docker ?](docker/what-is-docker/README.md)
-    * [Docker command](docker/what-is-docker/docker-command.md)
+  * [What is docker ?](docker/what-is-docker.md)
+  * [Docker command](docker/docker-command.md)
 * [Data process](data-process.md)
 
