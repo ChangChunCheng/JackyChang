@@ -12,7 +12,7 @@
 
 ## Reference
 
-* \*\*\*\*[**Docker —— 從入門到實**](https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html)
+* \*\*\*\*[**Docker —— 從入門到實：什麼是Docker**](https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html)\*\*\*\*
 
 
 
