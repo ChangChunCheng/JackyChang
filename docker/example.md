@@ -6,7 +6,9 @@
 
 {% hint style="info" %}
 Docker僅允許root和在docker group中的使用者執行docker command，須將使用者加入docker group中。
+{% endhint %}
 
+{% hint style="info" %}
 docker-compose是官方釋出的部署工具之一，可快速搭建container並有效控制container之間的關係。
 {% endhint %}
 
