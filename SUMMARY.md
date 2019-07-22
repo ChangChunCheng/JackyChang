@@ -8,7 +8,8 @@
   * [Pipeline](basic-of-computer/pipeline.md)
 * [Docker](docker/README.md)
   * [What is docker ?](docker/what-is-docker.md)
-  * [Docker Basic](docker/docker-command.md)
   * [Dockerfile](docker/dockerfile.md)
+  * [Docker Command](docker/docker-command.md)
+  * [Docker-compose](docker/docker-compose.md)
   * [Example](docker/example.md)
 

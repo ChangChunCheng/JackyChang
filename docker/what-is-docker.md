@@ -10,6 +10,17 @@
 
 為了達到減少硬體資源的浪費，在Docker環境中，透過Docker engine在本機作業系統上建立獨立的虛擬環境，以達到工作環境獨立的目的。其中，所有的工作環境的硬體操作都必須通過Docker engine向本機作業系統進行硬體操作。在Docker中，所有的虛擬環境都只保留了執行工作的必要核心，達到了減少硬體資源浪費的目的。
 
+* image : 環境映像檔，類似於作業系統的ISO檔。
+* container : 容器 \(貨櫃\)，執行環境的單位。
+* registry : 倉庫，用於存取docker image的地方。
+  * 本機docker有放置docker image的位置，也可以透過pull、push指令與公有/私人 \(public/private\) docker registry存取docker image。
+  * public docker registry : https://hub.docker.com
+  * private docker registry : 可透過官方提供的private registry建立私人docker registry伺服器。
+
+{% hint style="info" %}
+Docker中，image為靜止的環境，container為執行中的環境。執行工作前，必須將image啟動為container才可進行運算。
+{% endhint %}
+
 ## Reference
 
 * \*\*\*\*[**Docker —— 從入門到實：什麼是Docker**](https://philipzheng.gitbooks.io/docker_practice/content/introduction/what.html)\*\*\*\*

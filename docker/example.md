@@ -8,10 +8,6 @@
 Docker僅允許root和在docker group中的使用者執行docker command，須將使用者加入docker group中。
 {% endhint %}
 
-{% hint style="info" %}
-docker-compose是官方釋出的部署工具之一，可快速搭建container並有效控制container之間的關係。
-{% endhint %}
-
 {% code-tabs %}
 {% code-tabs-item title="install\_docker.sh" %}
 ```text
@@ -117,8 +113,13 @@ $docker-compose down
 
 ## 利用nvidia-docker runtime建立anaconda3環境
 
-1. 更改/etc/daemon.json檔案，將nvidia-docker runtime加入docker執行環境
-2. 利用nvidia提供的docker image安裝Anaconda3
+1. 安裝nvidia-docker2
+2. 更改/etc/daemon.json檔案，將nvidia-docker runtime加入docker執行環境
+3. 利用nvidia提供的docker image安裝Anaconda3
+
+```text
+$sudo apt-get install nvidia-docker2
+```
 
 {% code-tabs %}
 {% code-tabs-item title="/etc/daemon.json" %}
@@ -201,6 +202,37 @@ services:
 networks:
   jupyter:
     driver: bridge
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+## Docker environment clean
+
+{% code-tabs %}
+{% code-tabs-item title="clean\_unused\_images.sh" %}
+```text
+img_rm=$(docker images | grep "<none>" | awk "{print \$3}")
+
+if [ $? != 0 ]
+then
+    docker rmi -f $img_rm
+else
+    echo "No image be removed."
+fi
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="clean\_docker\_env.sh" %}
+```text
+#! /bin/bash
+
+docker kill $(docker ps -q)
+
+docker rm $(docker ps -a -q)
+
+docker rmi $(docker images -q)
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
