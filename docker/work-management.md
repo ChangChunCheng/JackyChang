@@ -18,3 +18,14 @@ Mesos是一個任務調度器。使用者在Mesos上建立節點，並告知該�
 
 ## Spark
 
+Spark是一個工作管理系統，其目的只用於資料運算處理。Spark的「in memory」的特性使得使用者的機台必須擁有大量的記憶體以滿足運算需求。然而，Spark本身有自帶的節點管理器，用於在不同機台之間進行相同運算，以達到高度平行化。但是其本身的節點管理器並無法有效支援不同的工作類型，使得大家習慣搭配其他系統一同使用。
+
+過去，Spark針對Mesos建立起任務調度器，但是近年來因Hadoop崛起，Spark本身也開始支援Spark on YARN運算模式。
+
+## Reference
+
+* \*\*\*\*[**Day 2 - Hadoop Ecosystem 之 Hadoop 介紹**](https://ithelp.ithome.com.tw/articles/10190756)\*\*\*\*
+* \*\*\*\*[**Docker —— 从入门到实践：**Mesos - 优秀的集群资源调度平台](https://yeasy.gitbooks.io/docker_practice/mesos/)\*\*\*\*
+* \*\*\*\*[**Apache Spark 簡介**](https://ithelp.ithome.com.tw/articles/10194895)
+* \*\*\*\*
+

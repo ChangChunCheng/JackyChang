@@ -28,6 +28,8 @@ Kubernetes強大於microsoft service佈屬和容錯能力，能在極短的時�
 Kubernetes是針對大量機台管理及服務而設計建立出，本身不支援單機運作。可以透過官方提供惡minikube、kind \(k8s in docker\)、dind \(docker in docker\) 工具學習。
 {% endhint %}
 
+現今的叢集管理系統不僅僅是維護節點正常運行，也透過備份、同步模式實現難以損毀的工作環境，而在之中也從系統層面加入了工作負載平衡的功能，使得後續提及的任務調度系統減少crash的機率。
+
 ## Reference
 
 * \*\*\*\*[**Docker —— 从入门到实践：**Docker 三剑客之 Docker Swarm](https://yeasy.gitbooks.io/docker_practice/swarm/)
