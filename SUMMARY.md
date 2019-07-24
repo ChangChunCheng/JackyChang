@@ -15,5 +15,7 @@
 * [Data process](data-process/README.md)
   * [Batch Process](data-process/batch-process.md)
   * [Linear Process](data-process/linear-process.md)
+  * [Comparison](data-process/comparison.md)
   * [DataFrame Manipulation](data-process/dataframe-manipulation.md)
+  * [Addition](data-process/addition.md)
 
