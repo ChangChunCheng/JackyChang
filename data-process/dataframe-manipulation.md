@@ -4,7 +4,8 @@ Dataframe \(資料表\) ，在database中稱為table，若只取得其中的值�
 
 ## DataFrame Manipulation
 
-* apply：對每一筆資料進行指定運算。指定函數，將每一個raw data作為函數的輸入值。
+* apply：對所有資料同步進行指定運算。指定函數，將每一個raw data作為函數的輸入值。
+* iter：逐筆索取資料。
 * transpose：轉置。在matrix中，轉置即「行列互換」。但是在DataFrame中，又分為以下兩種：
   * unstack：將一個欄位分割成多個欄位。
   * stack：將多個欄位合併成一個欄位。
@@ -13,4 +14,10 @@ Dataframe \(資料表\) ，在database中稱為table，若只取得其中的值�
 * concat：合併，又分為以下兩種：
   * merge：左右合併，用於將多個表格中不同定義的資料透過key進行整合。
   * union：上下合併，用於多個表格有相同定義資料進行整合。
-* 
+
+在上述的運算中，除了apply、iter是進行指定運算的工作外，其餘的動作皆是對於整個甚至多個dataframe進行整合、轉換等動作，此類動作最重要的是「鍵」\(key\)。
+
+{% hint style="info" %}
+「key」的判斷，通常來自表格設計建立時定義的primiry key。大多可透過「在該dataframe/table中，得知一個或數個欄位，即可『唯一』資料」來判斷其中的key，但這不是絕對的，可能因為問題而改變。
+{% endhint %}
+
