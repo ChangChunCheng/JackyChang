@@ -1,6 +1,6 @@
 # Batch Process
 
-Batch process \(批次處理\) ，顧名思議是一次處理一批資料，這組資料可能是一次性取得，也可能是每過一段時間取得一次。
+Batch process \(批次處理\) ，一次處理一批資料，這組資料可能是一次性取得，也可能是每過一段時間取得一次。
 
 Github上，在andkret/Cookbook中對batch process有以下描述：
 
