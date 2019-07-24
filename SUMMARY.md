@@ -12,6 +12,7 @@
   * [Docker Command](docker/docker-command.md)
   * [Docker-compose](docker/docker-compose.md)
   * [Example](docker/example.md)
+  * [Cluster Management](docker/cluster.md)
 * [Data process](data-process/README.md)
   * [Batch Process](data-process/batch-process.md)
   * [Linear Process](data-process/linear-process.md)
