@@ -44,11 +44,11 @@
 
 ### Frameworks & APIs
 
-* BeautibulSoup
-* Selenium
 * Numpy
 * Pandas
 * TensorFlow
+* BeautifulSoup
+* Selenium
 * Flask
 * Nodejs + Express
 
