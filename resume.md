@@ -36,6 +36,7 @@
 * Python for data science
 * R
 * Linux command
+* JavaScript
 
 ### Markup/Templating Languages & Preprocessors
 
