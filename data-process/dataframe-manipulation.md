@@ -18,6 +18,6 @@ Dataframe \(資料表\) ，在database中稱為table，若只取得其中的值�
 在上述的運算中，除了apply、iter是進行指定運算的工作外，其餘的動作皆是對於整個甚至多個dataframe進行整合、轉換等動作，此類動作最重要的是「鍵」\(key\)。
 
 {% hint style="info" %}
-「key」的判斷，通常來自表格設計建立時定義的primiry key。大多可透過「在該dataframe/table中，得知一個或數個欄位，即可『唯一』資料」來判斷其中的key，但這不是絕對的，可能因為問題而改變。
+**「key」的判斷，通常來自表格設計建立時定義的primiry key。大多可透過「在該dataframe/table中，得知一個或數個欄位，即可『唯一』資料」來判斷其中的key，但這不是絕對的，可能因為問題而改變。**
 {% endhint %}
 

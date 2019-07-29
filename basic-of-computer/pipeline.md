@@ -7,7 +7,7 @@ pipeline 之所以重要，是因為其透過 stdin/stdout 與作業系統之間
 以 Linux command line 為例，
 
 ```text
-$ a.py | b.py
+$a.py | b.py
 ```
 
 上列程式中， "a.py" 程式透過 sys.stdout 將資料傳遞給作業系統，並透過作業系統的 pipeline, "\|", 傳遞給 "b.py"，其中 "b.py" 也需透過sys.stdin來取得作業系統傳遞來的資料。
