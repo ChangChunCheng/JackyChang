@@ -6,7 +6,7 @@ Docker中，透過Dockerfile建立image並執行。可以透過分享Dockerfile�
 * MAINTAINER：標籤docker image製作人
 * COPY：複製本機檔案至docker image中
 * ADD：與COPY相同，但來源可以是URL
-* RUN：執行command \(bash shell\)
+* CMD：執行command
 * ENV：環境變數設定
   * 若在同一ENV中設置多個環境路徑，後者不可使用前者環境變數
 * ARG：暫存環境變數設定

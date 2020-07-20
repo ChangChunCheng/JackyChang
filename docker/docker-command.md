@@ -2,7 +2,7 @@
 
 除了前一章透過Dockerfile建立環境外，還需要學基本command，建立docker image、執行container或是與他人交換image，其中更重要的是定義本機與container之間的關係。
 
-* * docker version : docker版本
+* docker version : docker版本
 * docker info :  docker版本訊息
 * docker search : 搜尋images。未設定registry IP時，預設搜尋public docker registry
 * docker pull : 從registry抓取image
