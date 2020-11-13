@@ -1,5 +1,5 @@
 ---
-description: 本章將以家用網路來介紹基礎網路概念。
+description: 本章將以家用網路來介紹常用網路概念，若需要學習網路基礎概論如何架構，請參考鳥哥的 Linux 私房菜 - 基礎網路概念。
 ---
 
 # Network Basic
@@ -11,8 +11,11 @@ description: 本章將以家用網路來介紹基礎網路概念。
 1. 常用特殊IP
    1. 127.0.0.1：表示設備自身，在任何網路設備上使用此IP，必會連線到設備本身。\(localhost也是常見用於測試時透過網路連線到自身的網域名，但與此IP有些許不同\)
    2. 0.0.0.0：表示任意設備。在使用網路的伺服器中，常需設定連線限制，若用此IP表示不限制任何連線IP，即任何設備皆可以使用。
-2. 區域網路IP範圍
-3. 公用網路IP範圍
+2. 區域網路IP範圍：表示僅限於區域網路內使用。
+   1. 10.0.0.0 - 10.255.255.255
+   2. 172.16.0.0 - 172.31.255.255
+   3. 192.168.0.0 - 192.168.255.255
+3. 公用網路IP範圍：只要非前述所說的特殊用途IP外，其餘皆為公用網路IP位址。詳見[IP位址的組](http://kevin.hwai.edu.tw/~kevin/material/EAssistant/IP_Class.htm)。
 
 ![](../.gitbook/assets/network-system-diagram.png)
 
@@ -21,4 +24,5 @@ description: 本章將以家用網路來介紹基礎網路概念。
 ## Reference
 
 * [鳥哥的私房菜](http://linux.vbird.org/linux_server/0110network_basic.php)
+* [IP位址的組成](http://kevin.hwai.edu.tw/~kevin/material/EAssistant/IP_Class.htm)
 
