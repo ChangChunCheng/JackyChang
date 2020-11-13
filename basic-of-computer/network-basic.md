@@ -25,7 +25,12 @@ description: 本章將以家用網路來介紹常用網路概念，若需要學�
 
 ![](../.gitbook/assets/network-system-diagram.png)
 
-以台灣來說，上圖中的Internet \(雲\) 視為中華電信或其他網路業 \(統稱ISP\) 者提供的網路連線。其餘皆為家中的Wifi分享器 \(以下稱為路由器，Router\) 所管理的家中的設備。
+以台灣來說，上圖中的Internet \(雲\) 可視為中華電信或其他網路業 \(統稱ISP\) 者提供的網路連線。其餘皆為家中的Wifi分享器 \(以下稱為路由器，Router\) 所管理的家中的設備。一般家用路由器中有Firewall \(防火牆\)、Gateway \(網路閘道器\)、DHCP server和Switch \(網路交換器\)功能。每個服務的功能如下：
+
+1. Firewall 防火牆：
+2. Gateway 網路閘道器：
+3. DHCP server：
+4. Switch 網路交換器：
 
 ## Reference
 
