@@ -21,10 +21,12 @@
 * grep : 搜尋檔案中文字
 * awk : 文字處理
   * 利用標準輸入輸出 \(standard in / standard out, stdin/stdout\) 進行逐行處理
-* ssh : 遠端連線、資料傳輸
-  * 利用 TCP/IP 進行網路連線與資料傳輸
-* scp : 資料傳輸
-  * 利用 TCP/IP 進行網路連線與資料傳輸
+* ssh/scp : 遠端連線、資料傳輸
+  * 利用 TCP/IP 進行網路連線\(ssh\)與資料傳輸\(scp\)
+
+{% hint style="info" %}
+scp是一常用的資料傳輸指令，其透過ssh傳輸資料。除了透過scp傳輸資料外，也常使用網路檔案系統進行資料傳輸，例如：ftp、sftp、WebDAV、smb、afp...等檔案傳輸協議。其中，smb、afp常見於組織內區域網路連線傳輸，而ftp是過去常用的檔案傳輸系統。近年來，由於網路攻擊頻傳，網路檔案系統在透過網路傳輸資料時，為了避免在傳輸途中被擷取，也逐漸轉向「加密」傳輸資料，如：sftp、WebDAV on https，其建立於網路傳輸加密協議（例如：SSL、HTTPS等方法）上進行網路傳輸。
+{% endhint %}
 
 Ubuntu 中，預設 ll = ls -a 為顯示目錄下文件訊息，範例如下：
 
