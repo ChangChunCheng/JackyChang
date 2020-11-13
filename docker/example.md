@@ -8,8 +8,7 @@
 Docker僅允許root和在docker group中的使用者執行docker command，須將使用者加入docker group中。
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="install\_docker.sh" %}
+{% code title="install\_docker.sh" %}
 ```text
 #! /bin/bash
 
@@ -52,15 +51,13 @@ sudo apt-get install -y docker-compose
 echo "Please reboot machine, 'sudo reboot'."
 echo "After logining, run command, 'docker run hello-world'."
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Build Anaconda3 environment with Docker
 
 在docker環境下，利用ubuntu:14.04建立Anaconda3環境。並透過docker-compose建立與執行image。
 
-{% code-tabs %}
-{% code-tabs-item title="Dockerfile" %}
+{% code title="Dockerfile" %}
 ```text
 FROM ubuntu:14.04
 
@@ -76,11 +73,9 @@ WORKDIR /app
 
 VOLUME /app
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="docker-compose.yaml" %}
+{% code title="docker-compose.yaml" %}
 ```text
 version: "3"
 services:
@@ -102,8 +97,7 @@ networks:
   jupyter:
     driver: bridge
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ```text
 $docker-compose build
@@ -121,8 +115,7 @@ $docker-compose down
 $sudo apt-get install nvidia-docker2
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="/etc/daemon.json" %}
+{% code title="/etc/daemon.json" %}
 ```text
 {
     "default-runtime": "nvidia",
@@ -134,11 +127,9 @@ $sudo apt-get install nvidia-docker2
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="Dockerfile" %}
+{% code title="Dockerfile" %}
 ```text
 FROM nvidia/cuda:10.0-runtime-ubuntu18.04
 
@@ -174,11 +165,9 @@ VOLUME /app
 
 EXPOSE 8888 6006
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="docker-compose.yaml" %}
+{% code title="docker-compose.yaml" %}
 ```text
 version: "3"
 services:
@@ -203,13 +192,11 @@ networks:
   jupyter:
     driver: bridge
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Docker environment clean
 
-{% code-tabs %}
-{% code-tabs-item title="clean\_unused\_images.sh" %}
+{% code title="clean\_unused\_images.sh" %}
 ```text
 img_rm=$(docker images | grep "<none>" | awk "{print \$3}")
 
@@ -220,11 +207,9 @@ else
     echo "No image be removed."
 fi
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="clean\_docker\_env.sh" %}
+{% code title="clean\_docker\_env.sh" %}
 ```text
 #! /bin/bash
 
@@ -234,8 +219,7 @@ docker rm $(docker ps -a -q)
 
 docker rmi $(docker images -q)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## Reference
 

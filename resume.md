@@ -12,6 +12,7 @@
 
 * Bachelor: Chung Yuan Christian University, Applied Mathematics, Sep 2014 to Jun 2018
 * Master: Taipei Medical University Graduate Institute of Data Science, Sep 2018 to Jul 2020
+* PhD: Taipei Medical University Graduate Institute of Biomedical Information, Sep 2020 to now
 
 ## Specialties
 
@@ -23,11 +24,12 @@
 | 中原大學 財務金融學系 | 研究助理 | 利用SAS整理TEJ價量資料， 並完成建模 | 201807~201903 |
 | 臺北醫學大學大數據科技及管理研究所 | 兼任助理/學生 | 攝護腺癌細胞轉移骨科檢驗報告處理 | 201809~201810 |
 | 中原大學 應用數學系 | 研究助理 | 利用R進行撰寫統計模擬函數 | 201901~201907 |
-| 衛生福利部雙和醫院（委託臺北醫學大學興建經營） | 兼任助理 | 透過ECG建立ACS預測模型、 撰寫論文 | 201904~now |
+| 衛生福利部雙和醫院（委託臺北醫學大學興建經營） | 兼任助理 | 透過ECG建立ACS預測模型、 撰寫論文 | 201904~202004 |
+| 臺北醫學大學數據處臨床數據中心 | 辦事員 | 生資資料處理、生物資料處理和服務建立 | 202011~now |
 
 ## Study
 
-* Diagnosis Acute Coronary Syndrome with eletrocardiogram by Neural Network\(Execution\)
+* Diagnosis Acute Coronary Syndrome with electrocardiogram by Neural Network\(Execution\)
 
 ## Skills & Expertise
 
@@ -43,17 +45,6 @@
 
 * Markdown
 * HTML
-
-### Frameworks & APIs
-
-* SAS, data step including proc step for data manipulation, SQL, macro, proc report
-* Numpy
-* Pandas
-* TensorFlow
-* BeautifulSoup
-* Selenium
-* Flask
-* Nodejs + Express
 
 ### Software & Tools
 

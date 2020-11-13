@@ -23,8 +23,7 @@ docker-compose.yaml \(或.yml\) 可視為docker run指令變為腳本程式執�
 * ports：將container port掛載至本機port
 * tty：持續在背景執行，若container發生錯誤，將自動重啟
 
-{% code-tabs %}
-{% code-tabs-item title="example.yaml" %}
+{% code title="example.yaml" %}
 ```text
 version: "3"
 services:
@@ -46,8 +45,7 @@ networks:
   jupyter:
     driver: bridge
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 透過docker-compose建立docker container時，docker-compose會重新定義container名稱，以免與其他執行中的container產生衝突，也會將docker-compose.yaml中定義的container同步管理。若要重啟服務，僅需要回到目錄下透握docker-compose重新建立或啟用即可。
 
