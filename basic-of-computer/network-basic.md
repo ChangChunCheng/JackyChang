@@ -17,6 +17,12 @@ description: 本章將以家用網路來介紹常用網路概念，若需要學�
    3. 192.168.0.0 - 192.168.255.255
 3. 公用網路IP範圍：只要非前述所說的特殊用途IP外，其餘皆為公用網路IP位址。詳見[IP位址的組](http://kevin.hwai.edu.tw/~kevin/material/EAssistant/IP_Class.htm)。
 
+* Mac address：所有電子設備在出廠前都會有mac address \(硬體位址\)，此位址是由組織協議發放，全世界所有設備要生產時皆必須申請硬體位址。
+
+{% hint style="info" %}
+實際上，區域網路管理設備是透過mac address和IP對照表確認網路傳輸對象，並非僅透過IP進行連線。
+{% endhint %}
+
 ![](../.gitbook/assets/network-system-diagram.png)
 
 以台灣來說，上圖中的Internet \(雲\) 視為中華電信或其他網路業 \(統稱ISP\) 者提供的網路連線。其餘皆為家中的Wifi分享器 \(以下稱為路由器，Router\) 所管理的家中的設備。
