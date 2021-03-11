@@ -12,7 +12,6 @@
 
 * Bachelor: Chung Yuan Christian University, Applied Mathematics, Sep 2014 to Jun 2018
 * Master: Taipei Medical University Graduate Institute of Data Science, Sep 2018 to Jul 2020
-* PhD: Taipei Medical University Graduate Institute of Biomedical Information, Sep 2020 to now
 
 ## Specialties
 
