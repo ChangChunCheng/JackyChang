@@ -8,10 +8,13 @@
 
 ## Summary
 
+以數理背景
+
 ## Education
 
-* Bachelor: Chung Yuan Christian University, Applied Mathematics, Sep 2014 to Jun 2018
-* Master: Taipei Medical University Graduate Institute of Data Science, Sep 2018 to Jul 2020
+* Bachelor: Chung Yuan Christian University, Applied Mathematics, Sep 2014 to Jun 2018 大學：中原大學應用數學系畢業，201409 - 201806
+* Master: Taipei Medical University Graduate Institute of Data Science, Sep 2018 to Jul 2020 碩士：臺北醫學大學大數據科技及管理研究，201809 - 202007
+* PhD: Taipei Medical University Graduate Institute of Medical Information, Sep 2020 to Jan 2021 \(suspend\) 博士：臺北醫學大學醫學資訊研究所，202009 - 202101 \(休學\)
 
 ## Specialties
 
@@ -29,7 +32,7 @@
 
 ## Study
 
-* Diagnosis Acute Coronary Syndrome with electrocardiogram by Neural Network\(Execution\)
+* Diagnosis Acute Coronary Syndrome with electrocardiogram by Neural Network \(Execution\)
 
 ## Skills & Expertise
 
