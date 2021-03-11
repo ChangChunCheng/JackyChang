@@ -39,15 +39,15 @@
 ### Programming Languages
 
 * SAS
-* Python for data science
+* Python
 * R
 * Linux command
 * JavaScript
+* SQL
 
 ### Markup/Templating Languages & Preprocessors
 
 * Markdown
-* HTML
 
 ### Software & Tools
 
