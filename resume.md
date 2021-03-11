@@ -39,11 +39,11 @@
 ### Programming Languages
 
 * SAS
+* SQL
 * Python
 * R
 * Linux command
 * JavaScript
-* SQL
 
 ### Markup/Templating Languages & Preprocessors
 
@@ -51,11 +51,11 @@
 
 ### Software & Tools
 
-* Linux, ubuntu, MacOS
-* Visual Studio Code
-* PostgreSQL
-* MongoDB
-* VMware/VirtualBox
+* Linux, ubuntu, MacOS 系統操作與使用
+* PostgreSQL等關聯式資料庫
+* MongoDB等非關聯式資料庫
+* VMware/VirtualBox等虛擬機軟體使用
+* 基礎網路管理、網路儲存系統建立與安裝
 
 ## Interests
 
