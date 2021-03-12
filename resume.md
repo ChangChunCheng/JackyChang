@@ -15,6 +15,10 @@
 * Bachelor: Chung Yuan Christian University, Applied Mathematics, Sep 2014 to Jun 2018 大學：中原大學應用數學系畢業，201409 - 201806
 * Master: Taipei Medical University Graduate Institute of Data Science, Sep 2018 to Jul 2020 碩士：臺北醫學大學大數據科技及管理研究，201809 - 202007
 
+## Graduated Study
+
+* Diagnosis Acute Coronary Syndrome with electrocardiogram by Neural Network
+
 ## Specialties
 
 * 提供技術解決方案
@@ -31,9 +35,9 @@
 | 中國醫藥大學中醫部 | 兼任助理 | 藥物手冊資料處理並建立資料庫 | 20191~202007 |
 | 矽緋 | 工程師 | 資料庫建立、後端系統開發、產品研發 | 202101~now |
 
-## Graduated Study
+## **Certification**
 
-* Diagnosis Acute Coronary Syndrome with electrocardiogram by Neural Network
+* Certified Base Programming for SAS 9
 
 ## Skills & Expertise
 
