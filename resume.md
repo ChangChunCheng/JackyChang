@@ -3,7 +3,6 @@
 ## 張浚誠 Jacky Chang
 
 * Email: jacky850509@gmail.com
-* Facebook: [JackyChang](https://www.facebook.com/profile.php?id=100004678897373)
 * Github: [ChangChunCheng](https://github.com/ChangChunCheng)
 
 ## Summary
