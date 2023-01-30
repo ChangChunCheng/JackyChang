@@ -7,4 +7,3 @@
 In this book, I will share the note and experience of my learning including Windows and Ubuntu file system, environment setup, docker and data science.
 
 This book just share the technology. If you want  to know all of arguments or program, please refer the document.
-
